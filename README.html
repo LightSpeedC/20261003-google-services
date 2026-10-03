@@ -1,0 +1,161 @@
+﻿<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Google サービスの開始日</title>
+<style>
+:root {
+	--navy1: #12224d; --navy2: #2f5fbf;
+	--ink: #1c2330; --ink-soft: #4a5568; --line: #d9dfe8; --code-bg: #f4f6fa;
+	--link: #1a4fa0;
+	--accent: var(--navy1); --accent2: var(--navy2); --soft: #f2f5fb;
+}
+.ch01 { --accent: hsl(280, 78%, 25%); --accent2: hsl(280, 58%, 55%); --soft: hsl(280, 28%, 95%); }
+.ch02 { --accent: hsl(140, 78%, 25%); --accent2: hsl(140, 58%, 55%); --soft: hsl(140, 28%, 95%); }
+.ch03 { --accent: hsl(0, 78%, 25%); --accent2: hsl(0, 58%, 55%); --soft: hsl(0, 28%, 95%); }
+body { margin: 0; background: #fff; color: var(--ink, #1c2330); font-family: "Segoe UI", "Yu Gothic UI", "Meiryo", sans-serif; font-size: 15.5px; line-height: 1.85; }
+a { color: var(--link, #1a4fa0); background: transparent; }
+.titlebar { background: linear-gradient(135deg, var(--navy1, #12224d), var(--navy2, #2f5fbf)); color: #fff; padding: 34px 30px 30px; }
+.titlebar .inner { max-width: 1600px; margin: 0 auto; }
+.titlebar h1 { font-size: 1.9em; margin: 0 0 6px; color: #fff; }
+.titlebar .lead, .titlebar .date { color: #e3eaf8; background: transparent; margin: 2px 0; font-size: 0.92em; }
+.wrap { max-width: 1600px; margin: 0 auto; padding: 0 30px; }
+a.home { display: inline-block; margin-top: 18px; padding: 2px 12px; border-radius: 6px; background: linear-gradient(100deg, var(--navy1, #12224d), var(--navy2, #2f5fbf)); color: #fff; text-decoration: none; font-weight: 700; }
+.toc ol { display: flex; flex-wrap: wrap; gap: 8px; list-style: none; padding: 0; counter-reset: tocnum; }
+.toc ol li { counter-increment: tocnum; }
+.toc ol a { display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 2; overflow: hidden; text-overflow: ellipsis; white-space: normal; width: 310px; max-width: 100%; padding: 6px 12px; border-radius: 6px; background: linear-gradient(100deg, var(--accent, #12224d), var(--accent2, #2f5fbf)); color: #fff; text-decoration: none; font-weight: 700; }
+.toc ol a::before { content: counter(tocnum) ". "; }
+section { padding: 4px 26px 26px; margin: 34px 0; border-radius: 8px; background: linear-gradient(180deg, var(--soft, #f2f5fb), #fff); color: var(--ink, #1c2330); }
+section h1 { font-size: 1.5em; padding: 14px 20px; margin: 26px 0 20px; border-radius: 8px; background: linear-gradient(100deg, var(--accent, #12224d), var(--accent2, #2f5fbf)); color: #fff; box-shadow: 0 3px 10px rgba(0,0,0,0.18); }
+.tablewrap { overflow-x: auto; }
+table { border-collapse: collapse; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 6px rgba(0,0,0,0.08); background: #fff; color: var(--ink, #1c2330); }
+th { background: linear-gradient(100deg, var(--accent, #12224d), var(--accent2, #2f5fbf)); color: #fff; padding: 9px 12px; text-align: left; white-space: nowrap; }
+td { padding: 9px 12px; border-top: 1px solid var(--line, #d9dfe8); vertical-align: top; background: #fff; color: var(--ink, #1c2330); }
+tr:nth-child(even) td { background: #fafbfe; }
+td.num { text-align: right; }
+.nowrap { white-space: nowrap; }
+.callout { border-left: 6px solid var(--accent, #12224d); border-radius: 0 8px 8px 0; padding: 8px 16px; margin: 14px 0; background: linear-gradient(180deg, var(--soft, #f2f5fb), #fff); color: var(--ink, #1c2330); }
+.callout strong { color: var(--accent, #12224d); background: transparent; }
+footer { max-width: 1600px; margin: 0 auto; padding: 18px 30px 30px; }
+</style>
+</head>
+<body>
+<div class="titlebar"><div class="inner">
+	<h1>Google サービスの開始日</h1>
+	<p class="lead">主な Google サービスが始まった日と、そこからの経過年月の一覧</p>
+	<p class="date">📅 作成: 2026-10-03 / 更新: 2026-10-03</p>
+</div></div>
+
+<div class="wrap">
+<a class="home" href="../" title="親サイトへ">⌂</a>
+
+<nav class="toc">
+	<ol>
+		<li class="ch01"><a href="#ch01">サービス開始日の一覧</a></li>
+		<li class="ch02"><a href="#ch02">日付の読み方</a></li>
+		<li class="ch03"><a href="#ch03">出典</a></li>
+	</ol>
+</nav>
+
+<section class="ch01" id="ch01">
+<h1>サービス開始日の一覧</h1>
+<p>経過年月は、ページを開いた日を基準にブラウザで計算する。日付が月までしか分かっていないものは月単位で数える。</p>
+<div class="tablewrap">
+<table id="services">
+	<thead><tr><th>サービス</th><th>開始日</th><th>経過</th><th>根拠</th><th>補足</th></tr></thead>
+	<tbody>
+		<tr><td>google.com ドメイン登録</td><td class="nowrap" data-date="1997-09-15">1997-09-15</td><td class="num nowrap elapsed"></td><td class="nowrap"><a href="https://9to5google.com/2017/09/15/google-domain-20-year-anniversary/">他資料</a></td><td>Google の公式な記載は見つからない</td></tr>
+		<tr><td>Google 会社設立</td><td class="nowrap" data-date="1998-09-04">1998-09-04</td><td class="num nowrap elapsed"></td><td class="nowrap"><a href="https://blog.google/company-news/inside-google/company-announcements/marking-20ish-years-google/">公式</a></td><td>法人化した日</td></tr>
+		<tr><td><strong>Google の誕生日</strong></td><td class="nowrap" data-date="1998-09-27">1998-09-27</td><td class="num nowrap elapsed"></td><td class="nowrap"><a href="https://blog.google/company-news/inside-google/company-announcements/marking-20ish-years-google/">公式</a></td><td>Google は「10年以上、9月27日を誕生日として祝ってきた」としている</td></tr>
+		<tr><td><strong>Google 検索（ベータ版）</strong></td><td class="nowrap" data-date="1998-09">1998-09</td><td class="num nowrap elapsed"></td><td class="nowrap"><a href="https://blog.google/inside-google/company-announcements/google-25th-birthday/">公式</a></td><td>前身はスタンフォード大学の BackRub</td></tr>
+		<tr><td><strong>Google 検索（正式版）</strong></td><td class="nowrap" data-date="1999-09-21">1999-09-21</td><td class="num nowrap elapsed"></td><td class="nowrap"><a href="http://googlepress.blogspot.com/1999/09/googles-new-googlescout-feature-expands.html">公式</a></td><td>ベータテストを終えた日</td></tr>
+		<tr><td>Google 広告（旧 AdWords）</td><td class="nowrap" data-date="2000-10-23">2000-10-23</td><td class="num nowrap elapsed"></td><td class="nowrap"><a href="http://googlepress.blogspot.com/2000/10/google-launches-self-service.html">公式</a></td><td>開始時の広告主は約 350 社</td></tr>
+		<tr><td>Google 画像検索</td><td class="nowrap" data-date="2001-07">2001-07</td><td class="num nowrap elapsed"></td><td class="nowrap"><a href="https://blog.google/products-and-platforms/products/search/google-images-25th-anniversary/">公式</a></td><td>公式は月まで。他資料では 2001-07-12</td></tr>
+		<tr><td>Google ニュース</td><td class="nowrap" data-date="2002-09-22">2002-09-22</td><td class="num nowrap elapsed"></td><td class="nowrap"><a href="https://blog.google/outreach-initiatives/google-news-initiative/google-news-turns-10/">公式</a></td><td></td></tr>
+		<tr><td><strong>Gmail（招待制ベータ）</strong></td><td class="nowrap" data-date="2004-04-01">2004-04-01</td><td class="num nowrap elapsed"></td><td class="nowrap"><a href="http://googlepress.blogspot.com/2004/04/google-gets-message-launches-gmail.html">公式</a></td><td>容量 1GB。エイプリルフールで冗談と思われた</td></tr>
+		<tr><td><strong>Gmail（誰でも登録可）</strong></td><td class="nowrap" data-date="2007-02-07">2007-02-07</td><td class="num nowrap elapsed"></td><td class="nowrap"><a href="https://en.wikipedia.org/wiki/History_of_Gmail">他資料</a></td><td>Google の公式な記載は見つからない</td></tr>
+		<tr><td><strong>Gmail（ベータ表記を外す）</strong></td><td class="nowrap" data-date="2009-07-07">2009-07-07</td><td class="num nowrap elapsed"></td><td class="nowrap"><a href="https://gmail.googleblog.com/2009/07/gmail-leaves-beta-launches-back-to-beta.html">公式</a></td><td></td></tr>
+		<tr><td><strong>Google マップ（米国）</strong></td><td class="nowrap" data-date="2005-02-08">2005-02-08</td><td class="num nowrap elapsed"></td><td class="nowrap"><a href="https://blog.google/products-and-platforms/products/maps/look-back-15-years-mapping-world/">公式</a></td><td></td></tr>
+		<tr><td><strong>Google マップ（日本版）</strong></td><td class="nowrap" data-date="2005-07-14">2005-07-14</td><td class="num nowrap elapsed"></td><td class="nowrap"><a href="https://japan.googleblog.com/2015/07/google-10.html">公式</a></td><td>携帯電話向けは 2005-07-20</td></tr>
+		<tr><td>Google Earth</td><td class="nowrap" data-date="2005-06-28">2005-06-28</td><td class="num nowrap elapsed"></td><td class="nowrap"><a href="https://googleblog.blogspot.com/archives/2005_06_01_googleblog_archive.html">公式</a></td><td>2004年に買収した Keyhole が元</td></tr>
+		<tr><td>Google カレンダー（ベータ版）</td><td class="nowrap" data-date="2006-04-13">2006-04-13</td><td class="num nowrap elapsed"></td><td class="nowrap"><a href="http://googlepress.blogspot.com/2006/04/google-calendar_13.html">公式</a></td><td>正式版は 2009-07</td></tr>
+		<tr><td>Google 翻訳（自社の統計的機械翻訳）</td><td class="nowrap" data-date="2006-04-28">2006-04-28</td><td class="num nowrap elapsed"></td><td class="nowrap"><a href="https://research.google/blog/statistical-machine-translation-live/">公式</a></td><td>最初は英語とアラビア語</td></tr>
+		<tr><td>YouTube 買収（発表）</td><td class="nowrap" data-date="2006-10-09">2006-10-09</td><td class="num nowrap elapsed"></td><td class="nowrap"><a href="http://googlepress.blogspot.com/2006/10/google-to-acquire-youtube-for-165_09.html">公式</a></td><td><a href="http://googlepress.blogspot.com/2006/11/google-closes-acquisition-of-youtube_13.html">完了は 2006-11-13</a>。16.5 億ドル</td></tr>
+		<tr><td>Google ドキュメント（Docs &amp; Spreadsheets）</td><td class="nowrap" data-date="2006-10-11">2006-10-11</td><td class="num nowrap elapsed"></td><td class="nowrap"><a href="http://googlepress.blogspot.com/2006/10/google-announces-google-docs_11.html">公式</a></td><td>TechCrunch の記事は 2006-10-10 付け</td></tr>
+		<tr><td>ストリートビュー（米国）</td><td class="nowrap" data-date="2007-05-29">2007-05-29</td><td class="num nowrap elapsed"></td><td class="nowrap"><a href="https://blog.google/products-and-platforms/products/maps/look-back-15-years-mapping-world/">公式</a></td><td>Wikipedia 等では 2007-05-25</td></tr>
+		<tr><td>ストリートビュー（日本）</td><td class="nowrap" data-date="2008-08-05">2008-08-05</td><td class="num nowrap elapsed"></td><td class="nowrap"><a href="https://blog.google/intl/ja-jp/products/explore-get-answers/2008_08_blog-pos/">公式</a></td><td>12 都市から開始</td></tr>
+		<tr><td>Google Chrome（ベータ版）</td><td class="nowrap" data-date="2008-09-02">2008-09-02</td><td class="num nowrap elapsed"></td><td class="nowrap"><a href="https://googlepress.blogspot.com/2008/09/google-chrome-new-take-on-browser_02.html">公式</a></td><td>安定版は 2008-12-11</td></tr>
+		<tr><td>Android 初の端末 T-Mobile G1（発表）</td><td class="nowrap" data-date="2008-09-23">2008-09-23</td><td class="num nowrap elapsed"></td><td class="nowrap"><a href="https://googleblog.blogspot.com/2008/09/first-android-powered-phone.html">公式</a></td><td>米国発売は 2008-10-20</td></tr>
+		<tr><td><strong>Chrome リモート デスクトップ（ベータ版）</strong></td><td class="nowrap" data-date="2011-10-08">2011-10-08</td><td class="num nowrap elapsed"></td><td class="nowrap"><a href="https://9to5google.com/2011/10/09/google-releases-chrome-remote-desktop-beta/">他資料</a></td><td>Google の公式な記載は見つからない。<a href="https://chrome.googleblog.com/2012/10/controlling-your-computer-from-afar.html">ベータ表記を外したのは 2012-10</a></td></tr>
+		<tr><td>Google ドライブ</td><td class="nowrap" data-date="2012-04-24">2012-04-24</td><td class="num nowrap elapsed"></td><td class="nowrap"><a href="https://googleblog.blogspot.com/2012/04/introducing-google-drive-yes-really.html">公式</a></td><td></td></tr>
+		<tr><td>Google フォト</td><td class="nowrap" data-date="2015-05-28">2015-05-28</td><td class="num nowrap elapsed"></td><td class="nowrap"><a href="https://blog.google/products/photos/picture-this-fresh-approach-to-photos/">公式</a></td><td>Google I/O 2015 で発表</td></tr>
+	</tbody>
+</table>
+</div>
+<p id="basis"></p>
+</section>
+
+<section class="ch02" id="ch02">
+<h1>日付の読み方</h1>
+<p>「開始日」は、発表日・ベータ公開日・正式公開日のどれを取るかで変わる。この表は、断りのない限りベータ版の公開日か、サービスを始めた日で揃えた。資料によって日付が違うときは、Google の発表を優先した。</p>
+<div class="callout"><strong>根拠の列:</strong> 「公式」は Google の公式ブログ・プレスリリースで確かめたもの。「他資料」は Google の公式な記載が見つからず、Wikipedia や IT ニュース記事によったもの。</div>
+</section>
+
+<section class="ch03" id="ch03">
+<h1>出典</h1>
+<ul>
+	<li><a href="https://about.google/our-story/">Google: Our Story</a></li>
+	<li><a href="https://japan.googleblog.com/2015/07/google-10.html">Google Japan Blog: Google マップが 10 歳になりました</a></li>
+	<li><a href="https://blog.google/intl/ja-jp/products/explore-get-answers/2008_08_blog-pos/">Google Japan Blog: ストリートビュー日本版公開</a></li>
+	<li><a href="https://googlepress.blogspot.com/2008/09/google-chrome-new-take-on-browser_02.html">Google: Google Chrome: A New Take on the Browser</a></li>
+	<li><a href="http://googlepress.blogspot.com/2006/10/google-announces-google-docs_11.html">Google: Google Announces Google Docs &amp; Spreadsheets</a></li>
+	<li><a href="https://blog.google/outreach-initiatives/google-news-initiative/google-news-turns-10/">Google: Google News turns 10</a></li>
+	<li><a href="https://techcrunch.com/?p=21651">TechCrunch: Happy Tenth Birthday Google! When Are We Celebrating?</a></li>
+	<li><a href="https://www.nbcnews.com/news/world/happy-13th-birthday-google-flna120493">NBC News: Happy 13th birthday, Google</a></li>
+	<li><a href="https://9to5google.com/2017/09/15/google-domain-20-year-anniversary/">9to5Google: google.com 登録 20 周年</a></li>
+	<li><a href="https://www.cultofmac.com/apple-history/google-launch">Cult of Mac: Google exits beta</a></li>
+	<li><a href="https://en.wikipedia.org/wiki/History_of_Gmail">Wikipedia: History of Gmail</a></li>
+	<li><a href="https://en.wikipedia.org/wiki/Google_Maps">Wikipedia: Google Maps</a></li>
+	<li><a href="https://en.wikipedia.org/wiki/Google_Earth">Wikipedia: Google Earth</a></li>
+	<li><a href="https://xtech.nikkei.com/it/pc/article/free/NPC/NEWS/20050714/164653/">日経クロステック: 地図情報サービス日本版</a></li>
+	<li><a href="https://atmarkit.itmedia.co.jp/news/200808/05/sview.html">@IT: 日本でもストリートビュー提供開始</a></li>
+	<li><a href="https://en.wikipedia.org/wiki/Google_Images">Wikipedia: Google Images</a></li>
+	<li><a href="https://en.wikipedia.org/wiki/Google_Ads">Wikipedia: Google Ads</a></li>
+	<li><a href="https://en.wikipedia.org/wiki/Google_Calendar">Wikipedia: Google Calendar</a></li>
+	<li><a href="https://en.wikipedia.org/wiki/Google_Translate">Wikipedia: Google Translate</a></li>
+	<li><a href="https://techcrunch.com/2006/10/09/google-has-acquired-youtube/">TechCrunch: Google Has Acquired YouTube</a></li>
+	<li><a href="https://techcrunch.com/2006/10/10/google-docs-spreadsheets-launches/">TechCrunch: Docs &amp; Spreadsheets Launches</a></li>
+	<li><a href="https://en.wikipedia.org/wiki/Google_Street_View">Wikipedia: Google Street View</a></li>
+	<li><a href="https://en.wikipedia.org/wiki/Google_Chrome">Wikipedia: Google Chrome</a></li>
+	<li><a href="https://en.wikipedia.org/wiki/HTC_Dream">Wikipedia: HTC Dream</a></li>
+	<li><a href="https://en.wikipedia.org/wiki/Chrome_Remote_Desktop">Wikipedia: Chrome Remote Desktop</a></li>
+	<li><a href="https://en.wikipedia.org/wiki/Google_Drive">Wikipedia: Google Drive</a></li>
+	<li><a href="https://venturebeat.com/2015/05/28/everything-google-announced-at-io-2015">VentureBeat: Everything Google announced at I/O 2015</a></li>
+</ul>
+</section>
+</div>
+
+<footer><a class="home" href="../" title="親サイトへ">⌂</a></footer>
+
+<script>
+// 開始日（yyyy / yyyy-mm / yyyy-mm-dd）から今日までの経過を「n年mか月」で表示する
+(function () {
+	var now = new Date();
+	var ty = now.getFullYear(), tm = now.getMonth() + 1, td = now.getDate();
+	var cells = document.querySelectorAll('#services td[data-date]');
+	for (var i = 0; i < cells.length; i++) {
+		var p = cells[i].getAttribute('data-date').split('-').map(Number);
+		var out = cells[i].parentNode.querySelector('.elapsed');
+		if (p.length === 1) { out.textContent = '約' + (ty - p[0]) + '年'; continue; }
+		var months = (ty - p[0]) * 12 + (tm - p[1]);
+		if (p.length === 3 && td < p[2]) months--;
+		var y = Math.floor(months / 12), m = months % 12;
+		// 0 の単位は表示しない（例: 28年0か月 → 28年）
+		out.textContent = (y > 0 ? y + '年' : '') + (m > 0 || y === 0 ? m + 'か月' : '');
+	}
+	document.getElementById('basis').textContent = '経過の基準日: ' + ty + '-' + String(tm).padStart(2, '0') + '-' + String(td).padStart(2, '0');
+})();
+</script>
+</body>
+</html>
